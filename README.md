@@ -27,10 +27,10 @@ make training # if installed with training dependencies
 
 
 
-This is the error I am getting after I installed above dependencies 
+This is the error I am getting after I installed above dependencies and tried to OCR the input Text 
 
 ```
-ajinkyas-MacBook-Pro:Downloads ajinkyabobade$ tesseract text.jpg -l eng
+ajinkyabobade$ tesseract text.jpg -l eng
 
 Error opening data file /usr/local/share/tessdata/eng.traineddata
 Please make sure the TESSDATA_PREFIX environment variable is set to your "tessdata" directory.
