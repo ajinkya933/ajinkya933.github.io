@@ -49,8 +49,8 @@ sudo wget  https://github.com/tesseract-ocr/tessdata_best/raw/master/eng.trained
 ```
 
 
-Now run : tesseract -v 
-After this to test your image run : tesseract text.jpg output
+Now run : ```tesseract -v ```
+After this to test your image run : ```tesseract text.jpg output```
 This will generate extracted OCR into another text file named output.txt 
  
 
