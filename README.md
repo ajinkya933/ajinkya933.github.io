@@ -1,7 +1,9 @@
 ###Tesseract 4 for macOS
 
 
-I am writing on how to install tesseract on macOS. The version of macOs I am using is 10.14.3 Mojave but this code should work for any other versions too.
+I am writing on how to install tesseract on macOS. The version of macOs I am using is 10.14.3 Mojave but this code should work for any other versions too. Please make sure you have homebrew installed before you begin, also make sure that you remove previous versions of tesseract. In my case I had installed tesseract 3 using macports so I had to uninstall it first using ```sudo port uninstall tesseract.```
+
+To begin installation of Tesseract4 open Terminal and type:
 
 ```
 brew install automake autoconf libtool
@@ -23,7 +25,7 @@ make training # if installed with training dependencies
 
 
 
-This is the error I am getting
+This is the error I am getting after I installed above dependencies 
 
 ```
 ajinkyas-MacBook-Pro:Downloads ajinkyabobade$ tesseract text.jpg -l eng
@@ -35,7 +37,7 @@ Tesseract couldn't load any languages!
 Could not initialize tesseract.
 ```
 
-To resolve it do the dollowing:
+To resolve it and run tesseract normally do the dollowing:
 
 ```
 cd  /usr/local/share/tessdata/
