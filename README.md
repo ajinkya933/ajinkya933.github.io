@@ -1,1 +1,1 @@
-ajinkya933.github.io
+Tesseract 4 for macOS
