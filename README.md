@@ -1,7 +1,9 @@
 ###Tesseract 4 for macOS
 
 
-I am writing on how to install tesseract on macOS. The version of macOs I am using is 10.14.3 Mojave but this code should work for any other versions too. Please make sure you have homebrew installed before you begin, also make sure that you remove previous versions of tesseract. In my case I had installed tesseract 3 using macports so I had to uninstall it first using ```sudo port uninstall tesseract.```
+I am writing on how to install tesseract on macOS. The version of macOs I am using is 10.14.3 Mojave but this code should work for any other versions too. Please make sure you have homebrew installed before you begin, also make sure that you remove previous versions of tesseract. In my case I had installed tesseract 3 using macports so I had to uninstall it first using
+
+```sudo port uninstall tesseract.```
 
 To begin installation of Tesseract4 open Terminal and type:
 
