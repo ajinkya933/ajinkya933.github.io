@@ -24,7 +24,13 @@ sudo make install  # if desired
 make training # if installed with training dependencies
 
 ```
-
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-5910681611296641",
+    enable_page_level_ads: true
+  });
+</script>
 
 
 This is the error I am getting after I installed above dependencies and tried to OCR the input Text 
