@@ -37,7 +37,8 @@ This is the error I am getting after I installed above dependencies and tried to
 
 ```
 ajinkyabobade$ tesseract text.jpg -l eng
-
+```
+```
 Error opening data file /usr/local/share/tessdata/eng.traineddata
 Please make sure the TESSDATA_PREFIX environment variable is set to your "tessdata" directory.
 Failed loading language 'eng'
@@ -56,7 +57,8 @@ sudo wget  https://github.com/tesseract-ocr/tessdata_best/raw/master/eng.trained
 
 
 Now run : ```tesseract -v ```
-After this to test your image run : ```tesseract text.jpg output```
+This will shou you the current version of tesseract  which is = 4.
+Next step is to test your image to do this run : ```tesseract text.jpg output```
 This will generate extracted OCR into another text file named output.txt 
  
 
