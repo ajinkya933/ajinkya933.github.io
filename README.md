@@ -18,7 +18,7 @@ brew install pango
 git clone https://github.com/tesseract-ocr/tesseract/
 cd tesseract
 ./autogen.sh
-./configure CC=gcc-8 CXX=g++-8 CPPFLAGS=-I/usr/local/opt/icu4c/include LDFLAGS=-L/usr/local/opt/icu4c/lib
+./configure 
 make -j
 sudo make install  # if desired
 make training # if installed with training dependencies
